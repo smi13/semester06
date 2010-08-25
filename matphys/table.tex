@@ -1,0 +1,83 @@
+
+\documentclass{article}
+
+\usepackage[landscape]{geometry}
+\usepackage{amsmath}
+
+\pagestyle{empty}
+
+\begin{document}
+
+\centering
+
+Hello world! 
+
+\Large
+
+\begin{center}
+  \( (p(x)y'(x))' + (\lambda r(x) - q(x))y(x) = 0 \;\;\; x \in (a;b) \)
+\end{center}
+
+\begin{center}
+\begin{tabular}{|l|l|l|l|l|l|l|}
+  \hline
+  N & p & q & r & Equation & \( \lambda \neq 0 \) & \( \lambda = 0 \)\\
+  \hline
+  1 & 1 & 0 & 1 & 
+  \( y'' + \lambda y = 0 \) & 
+  \( y = C_1 cos(\sqrt{\lambda}x) + C_2 sin(\sqrt{\lambda} x) \) & 
+  \( y = C_1 x + C_2 \) \\
+  \hline
+  2 & 1 & 0 & -1 & 
+  \( y'' - \lambda y = 0 \) & 
+  \( y = \overset{\sim}{C_1} ch(\sqrt{\lambda}x) + \overset{\sim}{C_2} sh(\sqrt{\lambda}x) \) & 
+  \( y = C_1 x + C_2 \)  \\
+  \hline
+  3 & \( x \) & 0 & \( \frac{1}{x} \) &
+  \( (xy')' + \lambda \frac{1}{x} y = 0 \) & 
+  \( y = C_1 cos(\sqrt{\lambda}x) ln(x) + C_2 sin(\sqrt{\lambda} x) ln(x) \) &
+  \( y = C_1 ln(x) + C_2 \) \\
+  \hline
+  4 & \( x \) & 0 & \( -\frac{1}{x} \) & 
+  \( (xy')' - \lambda \frac{1}{x} y = 0 \) & 
+  \( y = C_1 x^{\sqrt{-\lambda}} + C_2 x^{\sqrt{\lambda}} \) &
+  \( y = C_1 ln(x) + C_2 \) \\
+  \hline
+  5 & \( x^2 \) & 0 & \( x^2 \) &
+  \( (x^2 y')' + \lambda x^2 y = 0 \) &
+  \( y = C_1 \frac{cos(\sqrt{\lambda}x)}{x} + C_2 \frac{sin(\sqrt{\lambda}x)}{x} \) &
+  \( y = -\frac{C_1}{x} + C_2 \) \\
+  \hline
+  6 & \( x^2 \) & 0 & \( -x^2 \) &
+  \( (x^2 y')' - \lambda x^2 y = 0 \) &
+  \( y = \overset{\sim}{C_1} \frac{ch(\sqrt{\lambda}x)}{x} + \overset{\sim}{C_2} \frac{sh(\sqrt{\lambda}x)}{x} \) &
+  \( y = -\frac{C_1}{x} + C_2 \) \\
+  \hline
+  7 & \( x \) & 0 & \( x \) &
+  \( (x y')' + \lambda x y = 0 \) &
+  \( y = C_1 I_0 (\sqrt{\lambda} x) + C_2 Y_0(\sqrt{\lambda} x) \) &
+  \( y = C_1 ln(x) + C_2 \) \\
+  \hline
+  7' & \( x \) & \( \frac{\nu}{x} \) & \( x \) &
+  \( (x y')' + (\lambda x - \frac{\nu}{x}) y = 0 \) &
+  \( y = C_1 I_\nu (\sqrt{\lambda} x) + C_2 Y_\nu(\sqrt{\lambda} x) \) &
+  \( y = C_1 ln(x) + C_2 \) \\
+  \hline
+  8 & \( x \) & 0 & \( -x \) &
+  \( (x y')' - \lambda x y = 0 \) &
+  \( y = C_1 \overset{\sim}{I_0} (\sqrt{\lambda} x) + C_2 K_0(\sqrt{\lambda} x) \) &
+  \( y = C_1 ln(x) + C_2 \) \\
+  \hline
+  8' & \( x \) & \(\frac{\nu}{x} \) & \( -x \) &
+  \( (x y')' - (\lambda x + \frac{\nu}{x}) y = 0 \) &
+  \( y = C_1 \overset{\sim}{I_\nu} (\sqrt{\lambda} x) + C_2 K_\nu(\sqrt{\lambda} x) \) &
+  \( y = C_1 ln(x) + C_2 \) \\
+  \hline
+
+\end{tabular}
+\end{center}
+
+\end{document}
+
+
+

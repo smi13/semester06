@@ -1,0 +1,114 @@
+1.000000e-001
+
+
+Newton method
+Result: 1.0
+Vector: 0.1 0.0 
+Iterations: 1
+
+
+Steepest descent
+Result: 1.0
+Vector: 0.0 0.0 
+Iterations: 2
+
+Conjugate gradient
+Result: 1.0
+Vector: -0.0 -0.0 
+Iterations: 2
+
+1.000000e-003
+
+
+Newton method
+Result: 1.000
+Vector: 0.000 0.000 
+Iterations: 2
+
+
+Steepest descent
+Result: 1.000
+Vector: 0.002 -0.001 
+Iterations: 3
+
+Conjugate gradient
+Result: 1.000
+Vector: -0.002 -0.004 
+Iterations: 2
+
+1.000000e-005
+
+
+Newton method
+Result: 1.00000
+Vector: 0.00019 0.00009 
+Iterations: 2
+
+
+Steepest descent
+Result: 1.00000
+Vector: 0.00034 0.00033 
+Iterations: 4
+
+Conjugate gradient
+Result: 1.00000
+Vector: -0.00065 0.00017 
+Iterations: 3
+
+1.000000e-007
+
+
+Newton method
+Result: 1.0000000
+Vector: 0.0000000 0.0000000 
+Iterations: 3
+
+
+Steepest descent
+Result: 1.0000000
+Vector: 0.0000121 0.0000117 
+Iterations: 6
+
+Conjugate gradient
+Result: 1.0000000
+Vector: 0.0000049 -0.0000006 
+Iterations: 5
+
+1.000000e-009
+
+
+Newton method
+Result: 1.000000000
+Vector: 0.000000000 0.000000000 
+Iterations: 3
+
+
+Steepest descent
+Result: 1.000000000
+Vector: 0.000003066 -0.000001399 
+Iterations: 7
+
+Conjugate gradient
+Result: 1.000000000
+Vector: 0.000004918 -0.000000551 
+Iterations: 5
+
+1.000000e-011
+
+
+Newton method
+Result: 1.00000000000
+Vector: 0.00000000001 0.00000000000 
+Iterations: 3
+
+
+Steepest descent
+Result: 1.00000000000
+Vector: 0.00000042634 0.00000040779 
+Iterations: 8
+
+Conjugate gradient
+Result: 1.00000000000
+Vector: -0.00000001499 -0.00000030962 
+Iterations: 6
+

@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libcruler", "libcruler.vcproj", "{4BC9964D-E522-451D-AE08-02124DBEB00E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libmousehook", "..\libmousehook\libmousehook.vcproj", "{46922CBD-1BB7-44F4-9B08-E6DD4E46541F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4BC9964D-E522-451D-AE08-02124DBEB00E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{4BC9964D-E522-451D-AE08-02124DBEB00E}.Debug|Win32.Build.0 = Debug|Win32
+		{4BC9964D-E522-451D-AE08-02124DBEB00E}.Release|Win32.ActiveCfg = Release|Win32
+		{4BC9964D-E522-451D-AE08-02124DBEB00E}.Release|Win32.Build.0 = Release|Win32
+		{46922CBD-1BB7-44F4-9B08-E6DD4E46541F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{46922CBD-1BB7-44F4-9B08-E6DD4E46541F}.Debug|Win32.Build.0 = Debug|Win32
+		{46922CBD-1BB7-44F4-9B08-E6DD4E46541F}.Release|Win32.ActiveCfg = Release|Win32
+		{46922CBD-1BB7-44F4-9B08-E6DD4E46541F}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

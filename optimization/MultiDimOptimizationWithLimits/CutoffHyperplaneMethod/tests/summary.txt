@@ -1,0 +1,51 @@
+Task1
+
+FUNC(FunctionPhi0, x[0] * x[0] + 2 * x[1] * x[1] + exp(x[0] * x[0] + x[1] * x[1]));
+
+FUNC(FunctionPhi1, x[0] + x[1] - 1);
+FUNC(FunctionPhi2, (x[0] + 1) * (x[0] + 1) * (-1.0) + 2 * x[1]);
+FUNC(FunctionPhi3, x[0] * x[0] * (x[1] + 1) - 5);
+
+VECTOR_FUNC(GradPhi0, res[0] = 2 * x[0] + 2 * x[0] * exp(x[0] * x[0] + x[1] * x[1]); 
+                      res[1] = 4 * x[1] + 2 * x[1] * exp(x[0] * x[0] + x[1] * x[1]) );
+
+VECTOR_FUNC(GradPhi1, res[0] = 1.0; res[1] = 1.0);
+VECTOR_FUNC(GradPhi2, res[0] = -2 * (x[0] + 1); res[1] = 2;);
+VECTOR_FUNC(GradPhi3, res[0] = 2 * x[0] * (x[1] + 1); res[1] = x[0] * x[0]);
+
+
+
+Task2
+
+FUNC(FunctionPhi0, 2 * x[0] * x[0] + 2 * x[1] * x[1] - 
+		   2 * x[0] * x[1] - 4 * x[0] - 6 * x[1]);
+
+FUNC(FunctionPhi1, x[0] + 5 * x[1] - 5);
+FUNC(FunctionPhi2, 2 * x[0] * x[0] - x[1]);
+FUNC(FunctionPhi3, -x[0]);
+FUNC(FunctionPhi4, -x[1]);
+
+VECTOR_FUNC(GradPhi0, res[0] = 4 * x[0] - 2 * x[1] - 4; 
+                      res[1] = 4 * x[1] - 2 * x[0] - 6);
+
+VECTOR_FUNC(GradPhi1, res[0] =  1;        res[1] = 5);
+VECTOR_FUNC(GradPhi2, res[0] =  4 * x[0]; res[1] = -1);
+VECTOR_FUNC(GradPhi3, res[0] = -1;        res[1] = 0);
+VECTOR_FUNC(GradPhi4, res[0] =  0;        res[1] = -1);
+
+
+
+Task3
+
+FUNC(FunctionPhi0, x[0] * x[0] * x[0] * x[0] + x[1] * x[1] * x[1] * x[1] + sqrt(2 + x[0] * x[0] + x[1] * x[1]));
+
+FUNC(FunctionPhi1, x[0] * x[0] + x[1] - 0.3);
+FUNC(FunctionPhi2, x[0] + x[1] - 5);
+FUNC(FunctionPhi3, x[0] * x[0] + x[1] * x[1] - 10);
+
+VECTOR_FUNC(GradPhi0, res[0] = 4 * x[0] * x[0] * x[0] + x[0] / sqrt(2 + x[0] * x[0] + x[1] * x[1]); 
+                      res[1] = 4 * x[1] * x[1] * x[1] + x[1] / sqrt(2 + x[0] * x[0] + x[1] * x[1]););
+
+VECTOR_FUNC(GradPhi1, res[0] = 2 * x[0]; res[1] = -1.0;);
+VECTOR_FUNC(GradPhi2, res[0] = 1; res[1] = 1;);
+VECTOR_FUNC(GradPhi3, res[0] = 2 * x[0]; res[1] = 2 * x[1];);

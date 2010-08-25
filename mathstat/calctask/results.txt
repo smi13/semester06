@@ -1,0 +1,119 @@
+Results for loaded sample.
+
+
+Mean:
+
+-0.005086904
+
+Median:
+
+-0.00322321
+
+Mode of sample:
+
+0
+
+Standard deviation:
+
+0.02203134
+
+Coefficient of variation:
+
+-4.330993
+
+Skewness:
+
+-0.07949154
+
+Kurtosis:
+
+2.389919
+
+Sigma rule:
+
+65.8363% 
+96.44128% 
+100%
+
+
+
+
+Results for theoretical sample.
+
+
+Mean:
+
+-0.002387610
+
+Median:
+
+-0.002084479
+
+Mode of sample:
+
+-0.06158198
+
+Standard deviation:
+
+0.02203709
+
+Coefficient of variation:
+
+-9.229767
+
+Skewness:
+
+-0.09339576
+
+Kurtosis:
+
+2.937511
+
+Sigma rule:
+
+68.68327% 
+92.88256% 
+100%
+
+
+
+One-sample Kolmogorov-Smirnov test
+
+p-value: 
+0.3304615
+
+
+Pearson chi-square normality test
+
+p-value: 
+0.2463146
+
+
+Two-sample Kolmogorov-Smirnov test
+
+p-value: 
+0.1195520
+
+
+Wilcoxon rank sum test with continuity correction
+
+p-value: 
+0.2670209
+
+
+F test to compare two variances
+
+p-value: 
+0.08649648
+
+
+ Two Sample t-test
+
+p-value: 
+1
+
+
+Pearson's Chi-squared test
+
+p-value: 
+0.2407977
